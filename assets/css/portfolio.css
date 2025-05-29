@@ -1,0 +1,59 @@
+/* General */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive containers */
+#container-index, .container-fluid {
+  padding: 1rem;
+}
+
+/* Responsive titles */
+.titulo h1 {
+  font-size: 2.5rem;
+}
+@media (max-width: 768px) {
+  .titulo h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Responsive images */
+img, .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive carousel */
+.carousel-inner {
+  width: 100%;
+  max-height: 350px;
+}
+@media (max-width: 768px) {
+  .carousel-inner {
+    max-height: 200px;
+  }
+}
+
+/* Responsive buttons */
+.buton-canvas {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Responsive sections */
+.presentacion {
+  margin-bottom: 2rem;
+}
+
+/* Responsive offcanvas */
+.offcanvas-body {
+  font-size: 1rem;
+}
+@media (max-width: 576px) {
+  .offcanvas-body {
+    font-size: 0.95rem;
+  }
+}
