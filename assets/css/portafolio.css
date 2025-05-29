@@ -202,7 +202,8 @@ footer{
   }
   footer p a{
     font: 300 "Nunito", sans-serif;
-    color: white;
+    color: rgb(36, 64, 166);
+    text-decoration: none;
   }
   footer p a:hover {
     text-decoration: underline;
